@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#people-count{
+    font-size: 80px;
+    color:chocolate;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background-color: red;
+}
+
+#save-btn{
+    background-color: green;
+}
+
+#save-el{
+    margin-top: 20px;
+    font-weight: bold;
+}
